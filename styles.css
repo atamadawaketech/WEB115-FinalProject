@@ -1,0 +1,82 @@
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+form {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+#bannerimage1 {
+    width: 100%;
+    background-image: url(/FitForEver-logos_transparent.png);
+    height: 20px;
+    background-position: center;
+  }
+#bannerimage {
+    /* The image used */
+    background-image: url(\FitForEver-logos_transparent.png);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    /* Prevent image from repeating */
+    background-repeat: no-repeat;
+}
+gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 86.45%;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
+	clear: none;
+	float: none;
+}
+fluid {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	display: block;
+	-webkit-box-shadow: inset 0px 0px;
+	box-shadow: inset 0px 0px;
+}
+.header_div {
+	height: 100px;
+    width: 100%;
+	background-image: url(assets/my-company-logo.jpeg);
+    background-repeat: repeat;
+}
+.fit {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+   }
